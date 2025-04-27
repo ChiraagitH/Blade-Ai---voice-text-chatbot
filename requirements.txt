@@ -1,6 +1,6 @@
-requests
-gradio
-pyttsx3
-speechrecognition
+requests==2.29.1
+gradio=3.6
+pyttsx3==2.90
+speechrecognition==3.8.1
 pyaudio
 
