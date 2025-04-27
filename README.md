@@ -50,5 +50,4 @@ A LLaMA3-powered chatbot that uses **voice recognition** and **text-to-speech** 
 
 ---
 
-## 📄 Project Structure
 
