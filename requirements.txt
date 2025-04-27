@@ -1,1 +1,6 @@
+requests
+gradio
+pyttsx3
+speechrecognition
+pyaudio
 
