@@ -50,12 +50,7 @@ Once all the dependencies are installed, run the Blade Ai application
 
 Ensure your microphone is set up and working. You can use voice input by clicking the 🎤 Voice Input button in the Gradio interface. The chatbot will listen to your voice input, convert it to text, and respond via text-to-speech.
  
-  ```bash
-  pip install -r requirements.txt
-  pip install requests gradio speechrecognition pyttsx3 pyaudio
 
-  step 2:
-  python app.py
   
   
   
