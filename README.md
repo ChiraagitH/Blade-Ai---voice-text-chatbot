@@ -1,55 +1,58 @@
 # Blade Ai - LLaMA 3 Powered Chatbot with Voice Interaction
 
-Blade Ai is a local chatbot powered by the LLaMA 3 model, integrated with Gradio for a user-friendly interface and enhanced with voice interaction features. The chatbot runs on your local server using Ollama for LLaMA 3 hosting. Users can communicate with the chatbot through text or voice input and get responses via text or speech.
+**Blade Ai** is a local chatbot powered by the LLaMA 3 model, integrated with Gradio for a user-friendly interface and enhanced with voice interaction features. The chatbot runs on your local server using Ollama for LLaMA 3 hosting. Users can communicate with the chatbot through text or voice input and get responses via text or speech.
 
----
+## Features
 
-## 🚀 Features
-- Local LLaMA 3 Integration: The chatbot runs the LLaMA 3 model locally via Ollama.
-- Voice Interaction: Supports voice input and output for a more interactive experience.
-- Gradio UI: Provides a simple web interface for both text and voice-based conversations.
-- Speech-to-Text & Text-to-Speech: Offline conversion from speech to text using speech_recognition and text-to-speech using pyttsx3.
-
----
+- **Local LLaMA 3 Integration**: The chatbot runs the LLaMA 3 model locally via Ollama.
+- **Voice Interaction**: Supports voice input and output for a more interactive experience.
+- **Gradio UI**: Provides a simple web interface for both text and voice-based conversations.
+- **Speech-to-Text & Text-to-Speech**: Offline conversion from speech to text using `speech_recognition` and text-to-speech using `pyttsx3`.
 
 ## Requirements
+
 - Python 3.6+
-- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
-- [pyttsx3](https://pypi.org/project/pyttsx3/)
-- [Requests](https://pypi.org/project/requests/)
-- gradio library
-- Ollama (for local LLaMA model serving)
+- LLaMA 3 model running on Ollama locally
+- `requests` library
+- `gradio` library
+- `speech_recognition` library
+- `pyttsx3` library
+- `pyaudio` library for microphone access
+
+### Installation
+
+1. **Install Dependencies**:
+
+   Use the following command to install the required Python packages:
+
+   ```bash
+   pip install requests gradio speechrecognition pyttsx3 pyaudio
+
+2. **Set Up LLaMA 3 Locally**:
+
+   Make sure to have LLaMA 3 running on your local machine via Ollama. The model should be 
+   accessible at:
+
+   ```bash
+   http://localhost:11434/api/generate
+
+## Setup Instructions
+
+### Step 1: Install Dependencies
+
+Install all the necessary dependencies by running:
+
+  ```bash
+  pip install -r requirements.txt
+  pip install requests gradio speechrecognition pyttsx3 pyaudio
+ 
 
 
+### Step 2: Run the Blade Ai Application
 
----
+Once all the dependencies are installed, run the Blade Ai application:
 
-## ⚙️ How to Run
-
-1. Install Ollama and pull LLaMA model locally:
-    ```bash
-    ollama pull llama3
-    ollama run llama3
-    ```
-
-2. Install Python packages:
-    ```bash
-    pip install speechrecognition pyttsx3 requests
-    ```
-
-3. Clone this repo:
-    ```bash
-    git clone https://github.com/Chiraagith/Blade-Ai---voice-text-chatbot.git
-    cd Blade-Ai---voice-text-chatbot
-    ```
-
-4. Run the script:
-    ```bash
-    python blade_ai_chatbot.py
-    ```
-
-5. Speak to your AI! 🎙️✨
-
----
-
-
+```bash
+python app.py 
+ 
+   
