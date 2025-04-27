@@ -12,12 +12,15 @@ Blade Ai is a local chatbot powered by the LLaMA 3 model, integrated with Gradio
 
 ---
 
-## 📦 Technologies Used
-- Python
+## Requirements
+- Python 3.6+
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 - [pyttsx3](https://pypi.org/project/pyttsx3/)
 - [Requests](https://pypi.org/project/requests/)
+- gradio library
 - Ollama (for local LLaMA model serving)
+
+
 
 ---
 
